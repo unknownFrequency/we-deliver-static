@@ -1074,7 +1074,7 @@ padding: 16px 21px;
     transition: all .35s;
 }
 .features_table h1 {
-    font-size: 23px !important;
+    font-size: 15px !important
 }
 .features-table h1, .features-table-free h1, .features-table-paid h1 {
     background: #ffffff none repeat scroll 0 0;
@@ -1115,6 +1115,7 @@ body {
   counter-reset: section;                   /* Set the section counter to 0 */
 }
 .features-table li::before {
+  display: none;
   counter-increment: section;               /* Increment the section counter*/
   content: "" counter(section) ": "; /* Display the counter */
 }
