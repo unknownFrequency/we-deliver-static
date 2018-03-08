@@ -1126,3 +1126,17 @@ body {
     font-weight: 700;
     font-size: 32px;
 }
+
+#open{
+  background-color: #007bff;
+}
+
+#open .container{
+
+}
+
+#open p{
+    margin: 15px auto;
+  color: #fff;
+      font-weight: 200;
+}
